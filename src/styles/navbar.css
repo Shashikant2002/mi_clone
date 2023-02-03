@@ -1,0 +1,51 @@
+.navbar li{
+    margin: 0 5px;
+}
+.navbar li a{
+    transition: .5s;
+    color: var(--darkGray);
+}
+.navbar li a:hover{
+    color: var(--orange);
+}
+
+.navbar >li{
+    position: relative;
+}
+.navbar li .level_1_nav li{
+    margin-top: 5px;
+}
+.navbar li .level_1_nav{
+    transition: .2s;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    background: var(--white);
+}
+
+.navbar li .level_1_nav_Active{
+    height: 70px;
+    z-index: 999999;
+}
+.navbar li form{
+    position: relative;
+}
+.navbar li form button{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 3px;
+}
+.navbar li form input{
+    border: 1px solid var(--orange);
+    width: 100%;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px 10px;
+    outline: none;
+}

@@ -1,0 +1,29 @@
+.productReview{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.productReview .container{
+    gap: 10px;
+}
+.productReview .reviewCard span{
+    margin-right: 20px;
+}
+.productReview .reviewCard h4{
+    margin: 10px 0 5px 0;
+}
+.productReview .reviewCard{
+    width: 50%;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.productReview .reviewCard img{
+    width: 100%;
+}
+.productReview .reviewCard h4,
+.productReview .reviewCard span{
+    padding: 0 20px;
+}
+.productReview .reviewCard {
+    padding-bottom: 20px;
+}

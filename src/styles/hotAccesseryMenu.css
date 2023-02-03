@@ -1,0 +1,13 @@
+.HotAccesseryMenu{
+    margin: 20px 0;
+}
+
+.HotAccesseryMenu a:hover{
+    color: var(--orange);
+}
+.HotAccesseryMenu a{
+    transition: .5s;
+    margin: 0 10px;
+    color: var(--black);
+    cursor: pointer;
+}

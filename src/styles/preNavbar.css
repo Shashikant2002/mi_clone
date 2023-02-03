@@ -1,0 +1,38 @@
+.prenav{
+    background: var(--darkGray);
+    width: 100%;
+    padding: 5px 0;
+}
+
+.prenav ul, .prenav ul li a{
+    transition: .5s;
+    color: var(--white);
+}
+.prenav ul li a:hover{
+    color: var(--orange);
+}
+
+.prenav ul p{
+    margin: 0 5px;
+}
+.prenav .impLink >li{
+    position: relative;
+}
+.prenav ul li .level_1 li{
+    margin-top: 5px;
+}
+.prenav ul li .level_1{
+    transition: .2s;
+    position: absolute;
+    background: var(--darkGray);
+    top: 25px;
+    left: 0;
+    width: 125px;
+    height: 0px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.prenav ul li .level_1_Active{
+    height: 90px;
+    z-index: 9999;
+}

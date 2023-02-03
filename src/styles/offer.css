@@ -1,0 +1,15 @@
+.offers a img {
+    width: 100%;
+    display: flex;
+    transition: .5s;
+}
+.offers a >div{
+    margin: 10px 20px;
+}
+.offers a{
+    overflow: hidden;
+    transition: .5s;
+}
+.offers a:hover img{
+    transform: scale(1.3);
+}

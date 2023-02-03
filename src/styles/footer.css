@@ -1,0 +1,93 @@
+.footer .preFooter .card{
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.footer .preFooter{
+    background: var(--white);
+    padding: 20px 0;
+}
+.footer .preFooter .card svg{
+    font-size: 4rem;
+    margin-right: 10px;
+}
+
+.footer.section_equal{
+    padding-bottom: 0;
+}
+
+.footer .preFoote_2{
+    padding:100px 0;
+}
+.footer .preFoote_2 .card form{
+    position: relative;
+    margin-bottom: 10px;
+}
+.footer .preFoote_2 .card form input{
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid var(--darkGray);
+    border-right: none;
+}
+.footer .preFoote_2 .card h4{
+    margin-bottom: 10px;
+
+}
+.footer .preFoote_2 .card form button{
+    padding: 8px 10px;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    cursor: pointer;
+    background: var(--darkGray);
+    color: var(--white);
+    
+}
+.footer .preFoote_2 .socal a svg{
+    font-size: 1.5rem;
+}
+.footer .preFoote_2 .socal a{
+    color: var(--white);
+    background:var(--darkGray);
+    border-radius: 20%;
+    padding: 1px;
+    margin: 0 5px;
+    font-size: 3rem;
+}
+
+.mainFooter{
+    background: var(--darkGray);
+    padding: 80px 0 10px 0;
+}
+.mainFooter .card{
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+}
+.mainFooter .card h4{
+    color: var(--white);
+}
+.mainFooter .card ul li{
+    margin-top: 5px;
+}
+.mainFooter .card ul li a{
+    color: var(--lightGray);
+}
+/* .mainFooter .card:last-child{
+    max-width: 250px;
+}
+.mainFooter .card:last-child h5{
+    color: var(--white);
+}
+.mainFooter .card:last-child{
+    text-align: right;
+    justify-content: center;
+    align-items: flex-end;
+}
+.mainFooter .card:last-child button{
+    margin-top: 10px;
+} */

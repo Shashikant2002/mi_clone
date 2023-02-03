@@ -1,0 +1,12 @@
+.header{
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    background: var(--white);
+}
+.header .logo img{
+    width: 100%;
+}
+.header .logo{
+    width: 50px;
+}

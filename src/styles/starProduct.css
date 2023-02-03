@@ -1,0 +1,19 @@
+.startProduct a img{
+    width: 100%;
+    display: flex;
+}
+
+.startProduct a:hover img{
+    transform: scale(.9)rotate(4deg);
+}
+.startProduct a{
+    width: 100%;
+    overflow: hidden;
+}
+.startProduct .part img{
+    transition: .5s;
+    width: 100%;
+}
+.startProduct .part .innerPart{
+    height: 50%;
+}

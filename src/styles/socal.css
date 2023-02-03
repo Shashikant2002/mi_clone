@@ -1,0 +1,10 @@
+.socal li{
+    margin: 0 5px;
+}
+.socal li a svg{
+    color: var(--white);
+    transition: .5s;
+}
+.socal li a svg:hover{
+    color: var(--orange);
+}
